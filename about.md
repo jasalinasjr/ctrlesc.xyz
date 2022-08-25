@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
 
-Some information about you!
+Need a place for my thoughts and projects.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
+### sen malware to
 
 [0x0@an0malous.net](mailto:0x0@an0malous.net)
