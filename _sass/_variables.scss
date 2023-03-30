@@ -2,9 +2,10 @@
 //
 // VARIABLES
 //
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 // Colors
-$blue: #4183C4;
+$blue: #2d6aa7;
 
 // Grays
 $black: #000;
@@ -19,6 +20,7 @@ $cyberBlue: #4389c2;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$audioWide: "Audiowide", cursive;
 
 // Mobile breakpoints
 @mixin mobile {
