@@ -2,7 +2,7 @@
 //
 // VARIABLES
 //
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Space+Mono&display=swap');
 
 // Colors
 $blue: #2d6aa7;
@@ -21,6 +21,7 @@ $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 $audioWide: "Audiowide", cursive;
+$spaceMono:"'Space Mono", monospace;
 
 // Mobile breakpoints
 @mixin mobile {
