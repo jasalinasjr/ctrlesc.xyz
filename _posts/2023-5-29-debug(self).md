@@ -3,6 +3,8 @@ layout: post
 title: debug_self
 ---
 
+initializing power-on self test.
+
 ## // condensed >
 
 i must confess, i had been in a bit of a slump with wanting to get anything done, but i think i have shifted my focus back over and feel a bit better about things.
