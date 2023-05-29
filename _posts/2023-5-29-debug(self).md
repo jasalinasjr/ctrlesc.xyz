@@ -5,7 +5,7 @@ title: debug_self
 
 initializing power-on self test.
 
-## // condensed >
+### // condensed >
 
 i must confess, i had been in a bit of a slump with wanting to get anything done, but i think i have shifted my focus back over and feel a bit better about things.
 
@@ -37,6 +37,6 @@ follow-up:
 - build exploits for the vulnerabilities that I find.
 - profit.
 
-## // eof >
+### // eof >
 
-i think it is important to remind myself as well; if you treat things as work, you will find yourself resisting and not getting anything done.
+i think it is important to remind myself as well; if you treat things as work, you will find yourself resisting it and not getting anything done. instead, treat it as a journey for knowledge.
