@@ -1,6 +1,6 @@
 ---
 layout: post
-title: debug(self)
+title: debug_self
 ---
 
 ## // condensed >
