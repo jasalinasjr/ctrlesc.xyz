@@ -15,7 +15,7 @@ i just finished reformatting two of my main machines with arch linux. i've been 
 
 i downloaded a js file the other day that ended up being an extremely obfuscated qakbot dropper. i wanted to keep it to try deobfuscating it to see what it was ultimately doing, but i felt like i didn't have the time. aside from that, stupid defender ate it, so i lost the file and couldn't remember where i downloaded it from. i definitely won't miss out on another opportunity to de-obfuscate and analyze something like that again.
 
-![qakbot_dropper](/images/qakbot_dropper.jpg)
+![qakbot_dropper](/images/qakbot_dropper01.jpg)
 
 i made a malware repository to keep any samples i come across archived. you can find that here: [malwarez](https://github.com/jsalinas212/malwarez)
 
