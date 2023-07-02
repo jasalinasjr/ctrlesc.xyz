@@ -19,7 +19,7 @@ i downloaded a js file the other day that ended up being an extremely obfuscated
 
 i made a malware repository to keep any samples i come across archived. you can find that here: [malwarez](https://github.com/jsalinas212/malwarez)
 
-at some point, i'll get around to deobfuscating this thing. for now, i just created a separate branch in the local repo so i can have a look at it.
+at some point, i'll get around to deobfuscating this thing to pull some info out of it. for now, i just created a separate branch in the local repo so i can have a look at it.
 
 ### // block_list >
 
