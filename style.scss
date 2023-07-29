@@ -180,6 +180,19 @@ img {
   }
 }
 
+.site-badge {
+  float: right;
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0- auto;
+  }
+}
+
 .site-info {
   float: left;
 
