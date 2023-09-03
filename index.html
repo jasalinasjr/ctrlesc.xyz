@@ -12,7 +12,22 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">read more</a>
     </article>
   {% endfor %}
+
+  <hr>
+
+  {% for hpost in site.postsh %}
+    <article class="post">
+      <h1><a href="{{ site.baseurl }}{{ hpost.url }}">{{ hpost.title }}</a></h1>
+
+      <div class="entry">
+        {{ hpost.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ hpost.url }}" class="read-more">read more</a>
+    </article>
 </div>
+
+
