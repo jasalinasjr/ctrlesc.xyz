@@ -3,6 +3,6 @@ layout: page
 title: hardware
 ---
 
-{% for post in site.tags.hardware %}
+{% for post in site.categories.hardware %}
  <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}

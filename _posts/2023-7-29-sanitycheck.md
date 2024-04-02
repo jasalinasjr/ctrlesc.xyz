@@ -1,7 +1,7 @@
 ---
 layout: post
 title: sanity check
-tags: testing
+categories: testing
 ---
 
 testing
