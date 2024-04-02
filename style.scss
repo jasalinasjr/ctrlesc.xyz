@@ -271,7 +271,7 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $borderGray;
+    border-left: 2px solid $borderGray; 
     padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
@@ -286,6 +286,16 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+}
+
+#archives > .archive-group {
+  padding-bottom: 2em;
+  border-bottom: 1px dotted $borderGray;
+}
+
+#archives > .archive-group:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
 }
 
 .wrapper-footer {
