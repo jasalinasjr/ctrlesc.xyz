@@ -15,19 +15,24 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">read more</a>
     </article>
   {% endfor %}
-
-  <hr>
-
-  {% for hpost in site.postsh %}
-    <article class="post">
-      <h1><a href="{{ site.baseurl }}{{ hpost.url }}">{{ hpost.title }}</a></h1>
-
-      <div class="entry">
-        {{ hpost.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ hpost.url }}" class="read-more">read more</a>
-    </article>
 </div>
 
+<hr>
 
+<div id="archives">
+  {% for category in site.categories %}
+    <div class="archive-group">
+      {% capture category_name %}{{ category | first }}{% endcapture %}
+      <div id="#{{ category_name | slugize }}"></div>
+      <p></p>
+  
+      <h3 class="category-head">{{ category_name }}</h3>
+      <a name="{{ category_name | slugize }}"></a>
+      {% for post in site.categories[category_name] %}
+      <article class="archive-item">
+        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+      </article>
+      {% endfor %}
+    </div>
+  {% endfor %}
+  </div>
