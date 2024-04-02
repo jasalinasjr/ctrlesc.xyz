@@ -1,7 +1,7 @@
 ---
 layout: post
 title: feedback_loop
-categories: hardware
+tags: hardware
 ---
 
 the world don't turn without us, man.

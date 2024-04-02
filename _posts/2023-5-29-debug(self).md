@@ -1,7 +1,7 @@
 ---
 layout: post
 title: debug_self
-categories: braindump
+tags: braindump
 ---
 
 initializing power-on self test.

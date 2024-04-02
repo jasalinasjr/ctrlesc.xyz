@@ -1,7 +1,7 @@
 ---
 layout: post
 title: memory_leak
-categories: software
+tags: software
 ---
 
 can it happen with a closed mind?
