@@ -10,4 +10,4 @@ i started this blog to have a place to write about the projects i'm working on a
 
 ### send malware to
 
-0x0 [@] an0malous [.] net | [DA8C A373 AB1F 7F45 96CE DD02 0AA1 F323 CFE3 04F3](/extra/pgp)
+0x0 [@] an0malous [.] net | [DA8C A373 AB1F 7F45 96CE DD02 0AA1 F323 CFE3 04F3](https://raw.githubusercontent.com/jsalinas212/ctrlesc.xyz/main/extra/pgp)
