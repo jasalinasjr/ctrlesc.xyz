@@ -26,7 +26,7 @@ i am taking this opportunity to push forward with my ultimate life goal of becom
 
 i need to finish setting up my account on bugcrowd, but i already have an account set up on hackerone which i used in the past. i have started seriously looking at one of the public programs available and i am fully committed to finding and submitting some bugs.
 
-instead of taking the normal skiddie route of running scanners or automated tools to find low-hanging fruit (and likely end up with informative or duplicate submissions), i am focusing on static analysis and breaking down how the application works through the flow of code.
+instead of taking the normal skiddie route of running scanners or automated tools to find low-hanging fruit (and likely end up with informative or duplicate submissions), i am focusing on static analysis and breaking down how the application works through the flow of code. obviously, i am planning on using automation for recon or other areas of testing, but i want to force myself to rely on my own ability to break web apps apart and understand them to find more impactful flaws.
 
 once i have a stable routine down, i plan on conducting research to (hopefully) contribute novel attacks and pocs.
 
