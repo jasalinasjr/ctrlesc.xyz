@@ -4,7 +4,7 @@ title: booomerang
 categories: updates
 ---
 
-life has a weird way of kicking you in the teeth when you least expect it. and sometimes, weird shit just seems to be the only thing on the menu.
+life has a weird way of kicking you in the teeth when you least expect it... and sometimes, weird shit just seems to be the only thing on the menu.
 
 ### // awakened state >
 
@@ -34,6 +34,6 @@ well... this rant got a bit long. there is definitely much more to say, but i th
 
 ### // eof >
 
-life, much like the motion of a pendulum, has its ups and downs. treat every opportunity to learn and grow, no matter if it is positive or negative.
+life, much like the motion of a pendulum, has its ups and downs. treat every event as an opportunity to learn and grow, no matter if it is positive or negative.
 
 - an0malous
