@@ -1,7 +1,7 @@
 ---
 layout: post
 title: license and radios
-categories: hardware, updates
+categories: hardware
 ---
 
 Blog post redux. I took the ameteur radio technician license exam and passed it.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: grayloggin0x01
-categories: software, updates
+categories: software
 ---
 
 i have been working with graylog as a siem on my home network recently and i am liking it so far. i was able to get my pfsense logs ingested and i was able to build some extractors for snort detections after a bit of research.
