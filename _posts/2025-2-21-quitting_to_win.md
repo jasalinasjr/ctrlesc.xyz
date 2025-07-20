@@ -1,7 +1,7 @@
 ---
 layout: post
 title: quitting to win
-categories: updates
+categories: braindump
 ---
 
 i made a decision this month to leave my position as cyber security engineer for the company i was working for. i didn't quit for anything related to the actual company, rather it was moreso issues with myself. at any rate, i wanted to focus more on offensive security and security research and i needed a bit more flexibility in my life in order to do so.
