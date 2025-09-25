@@ -44,4 +44,6 @@ part of me still thinks i should give him the benefit of the doubt and think of 
 
 what the fuck ever.
 
+anyway, if this skid decides to send over some malware, i'll see if i can do a write-up on my analysis of it.
+
 - an0malous
