@@ -24,7 +24,7 @@ my impression: my spidey sense is yelling at me. is this a remcos? perhaps anoth
 
 ![uno-003](/images/uno-003.png)
 
-third image: he provides a little more detail. it was written in c and powershell, and has anti-debug and VM detection capabilities. he reitterates the evasion and anti-logging functionalities, but throws install some additional iocs in the mix. again, he tries to reassure me that it is ***truly not malicious***, it was ***built for his friend's business***, that ***people willingly install this as a service***, it is ***grey***, and that its purpose is to deceive ***guardian browser***.
+third image: he provides a little more detail. it was written in c and powershell, and has anti-debug and VM detection capabilities. he reitterates the evasion and anti-logging functionalities, but throws out some additional iocs in the mix. again, he tries to reassure me that it is ***truly not malicious***, it was ***built for his friend's business***, that ***people willingly install this as a service***, it is ***grey***, and that its purpose is to deceive ***guardian browser***.
 
 my impression: bullshit. you're telling me, after describing a fuckin' rat and stager, that i'm supposed to believe this is greyware and that it isn't malicious? all for what, to bypass a proctoring software? what the actual fuck, skid?
 
