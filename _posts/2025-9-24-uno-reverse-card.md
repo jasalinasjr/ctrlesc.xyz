@@ -26,24 +26,20 @@ my impression: my spidey sense is yelling at me. is this a remcos? perhaps anoth
 
 third image: he provides a little more detail. it was written in c and powershell, and has anti-debug and VM detection capabilities. he reitterates the evasion and anti-logging functionalities, but throws out some additional iocs in the mix. again, he tries to reassure me that it is ***truly not malicious***, it was ***built for his friend's business***, that ***people willingly install this as a service***, it is ***grey***, and that its purpose is to deceive ***guardian browser***.
 
-my impression: bullshit. you're telling me, after describing a fuckin' rat and stager, that i'm supposed to believe this is greyware and that it isn't malicious? all for what, to bypass a proctoring software? what the actual fuck, skid?
+my impression: bullshit. you're telling me, after describing a fuckin' rat and stager, that i'm supposed to believe this is greyware and that it isn't malicious? all for what, to bypass a proctoring software? what the actual fuck?
 
 ![uno-004](/images/uno-004.png)
 
 fourth image: he adds that ***it will be seen from a c2*** if it is installed. he asks for a way to send it to me, so i picked out a gmail account that i took over a while back and dumped it in chat. obviously he can't make this publicly available on github as that would risk it getting analyzed and detected by EDR vendors.
 
-my impression: ah, greyware that hooks back to a c2... got it. i'll play along with your little game, skid--that is, if you have the nuts to actually send the files over. i'd expect you to make up a quick proton or tuta account to do so, but i doubt you're smart enough to think that far ahead.
+my impression: ah, greyware that hooks back to a c2... got it. i'll play along with his little game--that is, if he actually decides send the files over. i'd expect him to make up a quick proton or tuta account to do so, but we'll see if he can manage to think that far ahead.
 
 ### // eof >
 
-i'm not going to sit here and pretend i'm the best at social engineering, but holy shit was this terrible. i suppose this is what happens when over-zealous skids get their hands on new toys.
+i'm not going to sit here and pretend i'm the best at social engineering, but holy shit was this terrible. i suppose this is what happens when an over-zealous skid gets his hands on a new toy.
 
-mind you, this is only a week after this same person thought he was getting everyone's paycheck at work because of a joke that was made. yes... as if somehow it is legal to steal someone's paycheck to give it to another person. even if there had actually been a wager made, i would have won, rendering this garbage moot. the difference being that i wouldn't have been begging for someone else's paycheck like a petty assclown.
+part of me still thinks i should give him the benefit of the doubt and think of it as just posturing by an insecure, attention-starved douchebag.
 
-part of me still thinks i should give him the benefit of the doubt and think of it as just posturing by an insecure, attention-starved douchebag, but i know there's more to it than just that.
-
-what the fuck ever.
-
-anyway, if this skid decides to send over some malware, i'll see if i can do a write-up on my analysis of it.
+what the fuck ever. if he decides to send over some malware, i'll see if i can do a write-up on my analysis of it.
 
 - an0malous
