@@ -44,7 +44,7 @@ what the fuck ever. if he decides to send over some malware, i'll see if i can d
 
 ### // alternate ending >
 
-i didn't want to remove anything from this post because i don't really care about my initial thoughts on this being incorrect, but i got bored enough to actually look into the topic of vm detection bypass. it seems i jumped the gun a bit on this one, but it still has me wondering what this conversation was really about.
+i didn't want to remove anything from this post because i don't really care about my initial thoughts on this being incorrect, but i got bored enough to actually look into the topic of vm detection bypass. it seems i jumped the gun a bit on this one, but it still has me wondering what this conversation was really about, considering this is only the second conversation i've had with this guy.
 
 using some dorks, i found a repo for a tool called `hypervisor-phantom`, but the original user is no longer on github. i found a few forks, including one that mentions bypassing proctoring software with last commits from half a year ago. one of the newer forks claims that it is for advanced malware analysis, which is a fair point, but i think that shows that it was originally intended for.
 
