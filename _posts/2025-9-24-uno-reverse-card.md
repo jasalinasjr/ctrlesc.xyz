@@ -48,10 +48,10 @@ i didn't want to remove anything from this post because i don't really care abou
 
 using some dorks, i found a repo for a tool called `hypervisor-phantom`, but the original user is no longer on github. i found a few forks, including one that mentions bypassing proctoring software with last commits from half a year ago. one of the newer forks claims that it is for advanced malware analysis, which is a fair point, but i think that shows that it was originally intended for.
 
-there is another repo for a tool called `vmaware` that supposedly does the same thing.
+there is another repo for a tool called `vmaware` that does the opposite, but is also ties back to the same user.
 
 in the end, if you like cheating on your exams, i don't give a shit. it's not my place to say anything or even give a fuck about it. that aside, the process is definitely intriguing and I wouldn't think to use a rat and c2 for such a purpose.
 
-thanks, i guess. i learned something.
+thanks, i guess. i learned something today.
 
 - an0malous
