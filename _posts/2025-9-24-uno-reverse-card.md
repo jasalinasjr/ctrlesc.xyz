@@ -1,7 +1,7 @@
 ---
 layout: post
 title: uno reverse card
-categories: software
+categories: braindump
 ---
 
 is it just me, or am i paranoid? not every day you get an attempted social engineer attack from an potential insider threat, i suppose. i am documenting my analysis of a conversation that i had with a coworker that seemed a bit out of place.
