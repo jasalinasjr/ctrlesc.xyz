@@ -4,7 +4,7 @@ title: uno reverse card
 categories: braindump
 ---
 
-is it just me, or am i paranoid? not every day you get an attempted social engineer attack from an potential insider threat, i suppose. i am documenting my analysis of a conversation that i had with a coworker that seemed a bit out of place.
+is it just me, or am i paranoid? not every day you get an attempted social engineer attack from an potential insider threat, i suppose. i have a tendency to over-analyze things which leads to paying attention to psychological cues and patterns in people's words and mannerisms, so i am documenting my analysis of a conversation that i had with a coworker that seemed a bit out of place.
 
 ### // message analysis >
 
@@ -32,17 +32,15 @@ my impression: bullshit. you're telling me, after describing a fuckin' rat and s
 
 fourth image: he adds that ***it will be seen from a c2*** if it is installed. he asks for a way to send it to me, so i picked out a gmail account that i took over a while back and dumped it in chat. obviously he can't make this publicly available on github as that would risk it getting analyzed and detected by EDR vendors.
 
-my impression: ah, greyware that hooks back to a c2... got it. i'll play along with his little game--that is, if he actually decides send the files over. i'd expect him to make up a quick proton or tuta account to do so, but we'll see if he can manage to think that far ahead.
+my impression: ah, greyware that hooks back to a c2... got it. i'll play along with his little game--that is, if he actually decides send the files over. i'd expect him to make up a quick throw-away proton or tuta account to do so.
 
 ### // eof >
 
-i'm not going to sit here and pretend i'm the best at social engineering, but holy shit was this terrible. i suppose this is what happens when an over-zealous skid gets his hands on a new toy.
-
-part of me still thinks i should give him the benefit of the doubt and think of it as just posturing by an insecure, attention-starved douchebag.
+part of me still thinks i should give him the benefit of the doubt and think of this whole convo as either info gathering or just a petty attempt to flex.
 
 what the fuck ever. if he decides to send over some malware, i'll see if i can do a write-up on my analysis of it.
 
-### // alternate ending >
+### // alternate eof >
 
 i didn't want to remove anything from this post because i don't really care about my initial thoughts on this being incorrect, but i got bored enough to actually look into the topic of vm detection bypass. it seems i jumped the gun a bit on this one, but it still has me wondering what this conversation was really about considering this is only the second conversation i've had with this guy.
 
@@ -50,7 +48,7 @@ using some dorks, i found a repo for a tool called `hypervisor-phantom`, but the
 
 there is another repo for a tool called `vmaware` that does the opposite, but is also ties back to the same user.
 
-in the end, if you like cheating on your exams, i don't give a shit. it's not my place to say anything or even give a fuck about it. that aside, the process is definitely intriguing.
+in the end, if you like cheating on your exams, i don't give a shit. it's not my place to say anything or even give a fuck about it. that aside, i do find this intriguing.
 
 thanks, i guess. i learned something today.
 
