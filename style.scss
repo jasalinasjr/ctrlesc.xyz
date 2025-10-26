@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $darkerGray;
-  font: 18px $smoochSans;
+  font: 16px $smoochSans;
   color: $lightGray;
 }
 
@@ -216,7 +216,7 @@ img {
 .site-description {
   margin: 5px 0 0 0;
   color: $lightGray;
-  font-size: 20px;
+  font-size: 18px;
 
   @include mobile {
     margin: 3px 0;
@@ -274,8 +274,7 @@ nav {
     border-left: 2px solid $borderGray; 
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 18px;
-    font-style: italic;
+    font-size: 16px;
   }
 
   .comments {
@@ -284,7 +283,7 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
