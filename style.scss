@@ -227,7 +227,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $sixtyFour;
-  font-size: 18px;
+  font-size: 16px;
 
   @include mobile {
     float: none;
@@ -237,7 +237,7 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 18px;
     color: $cyberBlue;
     text-align: right;
     font-weight: 300;
