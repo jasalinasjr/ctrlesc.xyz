@@ -238,14 +238,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $cyberBlue;
+    color: $cyberPink;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $cyberBlue;
+      color: $cyberPink;
     }
   }
 }
@@ -271,7 +271,7 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $borderGray; 
+    border-left: 2px solid $cyberPink; 
     padding: 0.1em 1em;
     color: $gray;
     font-size: 16px;
