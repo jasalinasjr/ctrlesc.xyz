@@ -216,7 +216,7 @@ img {
 .site-description {
   margin: 5px 0 0 0;
   color: $lightGray;
-  font-size: 18px;
+  font-size: 20px;
 
   @include mobile {
     margin: 3px 0;
@@ -225,7 +225,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 20px; // @TODO: Vertically middle align
   font-family: $sixtyFour;
   font-size: 14px;
 
