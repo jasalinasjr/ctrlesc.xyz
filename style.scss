@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $darkerGray;
-  font: 12px $spaceMono;
+  font: 12px $smoochSans;
   color: $lightGray;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $audioWide;
+  font-family: $sixtyFour;
   color: $cyberBlue;
   font-weight: bold;
 
@@ -45,14 +45,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 24px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h3 {
@@ -207,7 +207,7 @@ img {
   margin: 0;
   color: $gray;
   cursor: pointer;
-  font-family: $audioWide;
+  font-family: $sixtyFour;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -226,7 +226,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $audioWide;
+  font-family: $sixtyFour;
   font-size: 18px;
 
   @include mobile {

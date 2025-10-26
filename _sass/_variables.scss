@@ -2,7 +2,7 @@
 //
 // VARIABLES
 //
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Space+Mono&family=Sixtyfour&family=Quantico&family=Smooch+Sans');
 
 // Colors
 $blue: #2d6aa7;
@@ -22,7 +22,10 @@ $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 $audioWide: "Audiowide", cursive;
-$spaceMono:"'Space Mono", monospace;
+$sixtyFour: "Sixtyfour", sans-serif;
+$spaceMono: "Space Mono", monospace;
+$quantico: "Quantico", sans-serif;
+$smoochSans: "Smooch Sans", sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
