@@ -1,7 +1,7 @@
 ---
 layout: post
 title: debug_self
-categories: braindump
+categories: random
 ---
 
 initializing power-on self test.
@@ -41,3 +41,5 @@ follow-up:
 ### // eof >
 
 i think it is important to remind myself as well; if you treat things as work, you will find yourself resisting it and not getting anything done. instead, treat it as a journey for knowledge.
+
+- an0malous

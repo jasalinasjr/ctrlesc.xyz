@@ -1,7 +1,7 @@
 ---
 layout: post
 title: cable guy
-categories: testing
+categories: null
 ---
 
 i was that guy that walked around aimlessly in your facility, accessing things i shouldn't, and making your security look quite foolish in the process.

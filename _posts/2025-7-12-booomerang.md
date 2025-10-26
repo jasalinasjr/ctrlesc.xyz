@@ -1,7 +1,7 @@
 ---
 layout: post
 title: booomerang
-categories: braindump
+categories: random
 ---
 
 life has a weird way of kicking you in the teeth when you least expect it... and sometimes, weird shit just seems to be the only thing on the menu.

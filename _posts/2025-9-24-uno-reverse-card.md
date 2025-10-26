@@ -1,7 +1,7 @@
 ---
 layout: post
 title: uno reverse card
-categories: braindump
+categories: random
 ---
 
 is it just me, or am i paranoid? not every day you get an attempted social engineer attack from an potential insider threat, i suppose. i have a tendency to over-analyze things which leads to paying attention to psychological cues and patterns in people's words and mannerisms, so i am documenting my analysis of a conversation that i had with a coworker that seemed a bit out of place.
