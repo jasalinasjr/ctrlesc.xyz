@@ -25,7 +25,7 @@ second week was the start of the pentest, and boy did i start out strong. i stil
 - **credential reuse across platforms** (high, cwe-522) — i bought a gift card for $10 dollars and this gave me access across multiple services. this by itself isn't bad up until i pivoted over to the internal services that i wasn't supposed to have access to.
 - **infinite refresh token reuse** (critical, cwe-613) — refresh tokens never expire and don't rotate. steal one from localStorage or a log, and you have indefinite access. no forced logout, no revocation path.
 - **authentication bypass** (critical, cwe-287) — i overwrote the execution flow to route me to the token refresh endpoint, bypassing the need to actually authenticate and that let me skip auth entirely.
-- **privilege escalation** (critical, cwe-269) — mass assignment vuln where i just manipulated the objects to say iw as a super admin instead of just an employee.
+- **privilege escalation** (critical, cwe-269) — mass assignment vuln where i just manipulated the objects to say i was a super admin instead of just an employee.
 - **sensitive pii disclosure** (critical, cwe-200) — unprotected api endpoints dumped full provider PII with zero auth. nothing else to say here. dev team was quick to address this issue, though.
 - **patient id enumeration** (high, cwe-284) — unauthenticated idor on patient records. not damaging by itself, but can be useful for later testing.
 - **provider pii disclosure** (high, cwe-200) — second look at the same issue above after dev team issued the fix. still no auth and leaking some provider PII (names, email addresses, and phone numbers) without auth or rate limiting.
