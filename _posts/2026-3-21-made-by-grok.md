@@ -1,6 +1,6 @@
 ---
 layout: post
-title: reality keeps glitching and i can't unsee it
+title: made by grok
 categories: random
 ---
 
