@@ -1,52 +1,128 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+  <meta name="author" content="{{ site.name }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
 
-    {% include meta.html %}
+<div class="tc-top-bar">
+  <span>// session active :: an0malous@ctrlesc.xyz</span>
+  <span class="tc-uptime">{{ site.description }}</span>
+</div>
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<header class="tc-header">
+  <a href="{{ site.baseurl }}/" class="tc-ascii-link">
+    <pre class="tc-ascii"> ▄████▄  ▄▄▄█████▓ ██▀███   ██▓    ▓█████   ██████  ▄████▄  
+▒██▀ ▀█  ▓  ██▒ ▓▒▓██ ▒ ██▒▓██▒    ▓█   ▀ ▒██    ▒ ▒██▀ ▀█  
+▒▓█    ▄ ▒ ▓██░ ▒░▓██ ░▄█ ▒▒██░    ▒███   ░ ▓██▄   ▒▓█    ▄ 
+▒▓▓▄ ▄██▒░ ▓██▓ ░ ▒██▀▀█▄  ▒██░    ▒▓█  ▄   ▒   ██▒▒▓▓▄ ▄██▒
+▒ ▓███▀ ░  ▒██▒ ░ ░██▓ ▒██▒░██████▒░▒████▒▒██████▒▒▒ ▓███▀ ░
+░ ░▒ ▒  ░  ▒ ░░   ░ ▒▓ ░▒▓░░ ▒░▓  ░░░ ▒░ ░▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░
+  ░  ▒       ░      ░▒ ░ ▒░░ ░ ▒  ░ ░ ░  ░░ ░▒  ░ ░  ░  ▒   
+░          ░        ░░   ░   ░ ░      ░   ░  ░  ░  ░        
+░ ░                  ░         ░  ░   ░  ░      ░  ░ ░      
+░                                                  ░</pre>
+  </a>
+  <div class="tc-divider">--------------------------------------------------------------------------------</div>
+  <div class="tc-tagline">
+    <span class="tc-comment">// </span><em>cogito ergo sum</em><span class="tc-comment"> &amp;&amp; </span><em>memento mori</em>
+    <span class="tc-sep"> | </span>
+    <span class="tc-dim">cybersecurity engineer</span>
+    <span class="tc-sep"> :: </span>
+    <span class="tc-dim">security researcher</span>
+    <span class="tc-sep"> :: </span>
+    <span class="tc-dim">amateur radio op</span>
+  </div>
+  <div class="tc-divider" style="margin-top:10px">--------------------------------------------------------------------------------</div>
+</header>
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+<nav class="tc-nav">
+  <span>[</span><a href="{{ site.baseurl }}/">home</a><span>]</span>
+  <span class="tc-sep-nav"> // </span>
+  <span>[</span><a href="{{ site.baseurl }}/blog">blog</a><span>]</span>
+  <span class="tc-sep-nav"> // </span>
+  <span>[</span><a href="{{ site.baseurl }}/writeups">writeups</a><span>]</span>
+  <span class="tc-sep-nav"> // </span>
+  <span>[</span><a href="{{ site.baseurl }}/hardware">hardware</a><span>]</span>
+  <span class="tc-sep-nav"> // </span>
+  <span>[</span><a href="{{ site.baseurl }}/software">software</a><span>]</span>
+  <span class="tc-sep-nav"> // </span>
+  <span>[</span><a href="{{ site.baseurl }}/tags">tags</a><span>]</span>
+  <span class="tc-sep-nav"> // </span>
+  <span>[</span><a href="{{ site.baseurl }}/about">about</a><span>]</span>
+</nav>
 
-  </head>
+<div class="tc-body">
+  <main class="tc-main">
+    {{ content }}
+  </main>
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <div class="site-badge">
-            <script src="https://tryhackme.com/badge/58523"></script>
-          </div>
+  <aside class="tc-sidebar">
+    <div class="tc-sidebar-block">
+      <div class="tc-sidebar-label">/== CONTACT ==========\</div>
+      <div class="tc-sidebar-item tc-contact">0x0 [@] an0malous [.] net</div>
+      <div class="tc-sidebar-item"><a href="https://instagram.com/an0malous_" target="_blank">instagram</a></div>
+      <div class="tc-sidebar-item"><a href="https://twitter.com/an0malous_" target="_blank">twitter/x</a></div>
+      <div class="tc-sidebar-item"><a href="{{ site.baseurl }}/feed.xml">feed.xml</a></div>
+      <div class="tc-sidebar-label">\=====================/</div>
+    </div>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">home</a>
-            <a href="{{ site.baseurl }}/blog">blog</a>
-            <a href="{{ site.baseurl }}/tags">tags</a>
-            <a href="{{ site.baseurl }}/about">about</a>
-          </nav>
-        </header>
+    <div class="tc-sidebar-block">
+      <div class="tc-sidebar-label">/== TAGS =============\</div>
+      <div class="tc-tag-cloud">
+        {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
+        {% for tag in all_tags %}
+          {% assign tag_stripped = tag | strip %}
+          {% if tag_stripped != '' %}
+            <a href="{{ site.baseurl }}/tags#{{ tag_stripped | slugify }}" class="tc-tag">{{ tag_stripped }}</a>
+          {% endif %}
+        {% endfor %}
       </div>
+      <div class="tc-sidebar-label" style="margin-top:10px">\=====================/</div>
     </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }} 
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
+    <div class="tc-sidebar-block">
+      <div class="tc-sidebar-label">/== PGP ==============\</div>
+      <div class="tc-pgp">
+        <a href="https://raw.githubusercontent.com/jasalinasjr/ctrlesc.xyz/main/extra/pgp" target="_blank">
+          DA8C A373 AB1F 7F45 96CE<br>DD02 0AA1 F323 CFE3 04F3
+        </a>
       </div>
+      <div class="tc-sidebar-label" style="margin-top:6px">\=====================/</div>
     </div>
-  </body>
+
+    <div class="tc-sidebar-block">
+      <div class="tc-sidebar-label">/== RECENT ===========\</div>
+      {% for post in site.posts limit:5 %}
+      <div class="tc-sidebar-item">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <span class="tc-recent-date">{{ post.date | date: "%m.%y" }}</span>
+      </div>
+      {% endfor %}
+      <div class="tc-sidebar-label" style="margin-top:4px">\=====================/</div>
+    </div>
+  </aside>
+</div>
+
+<footer class="tc-footer">
+  <span><span class="tc-pink">//</span> {{ site.name }} &mdash; an0malous &mdash; MIT</span>
+  <div class="tc-footer-links">
+    <a href="https://instagram.com/an0malous_" target="_blank">instagram</a>
+    <a href="https://twitter.com/an0malous_" target="_blank">twitter</a>
+    <a href="{{ site.baseurl }}/feed.xml">feed</a>
+  </div>
+</footer>
+
+</body>
 </html>

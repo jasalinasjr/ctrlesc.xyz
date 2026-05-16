@@ -2,15 +2,45 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
-  <h3>tags: {{ page.categories }}</h3>
+<article class="tc-post-full">
+  <header class="tc-post-header">
+    <div class="tc-post-meta-full">
+      {% if page.categories %}
+        {% for cat in page.categories %}
+          <span class="tc-cat">[{{ cat }}]</span>
+        {% endfor %}
+      {% endif %}
+      {% if page.tags %}
+        {% for tag in page.tags %}
+          <a href="{{ site.baseurl }}/tags#{{ tag | slugify }}" class="tc-tag-inline">#{{ tag }}</a>
+        {% endfor %}
+      {% endif %}
+    </div>
+    <h1 class="tc-post-title-full">{{ page.title }}</h1>
+    <div class="tc-post-date">{{ page.date | date: "%Y-%m-%d" }}</div>
+    <div class="tc-post-divider">--------------------------------------------------------------------------------</div>
+  </header>
 
-  <div class="entry">
+  <div class="tc-post-content">
     {{ content }}
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
+  <footer class="tc-post-footer">
+    <div class="tc-post-divider">--------------------------------------------------------------------------------</div>
+    <div class="tc-post-nav">
+      <span class="tc-pink">$</span>
+      {% if page.previous.url %}
+        <a href="{{ site.baseurl }}{{ page.previous.url }}" class="tc-prev">&lt; {{ page.previous.title }}</a>
+      {% endif %}
+      {% if page.previous.url and page.next.url %}
+        <span class="tc-dim"> | </span>
+      {% endif %}
+      {% if page.next.url %}
+        <a href="{{ site.baseurl }}{{ page.next.url }}" class="tc-next">{{ page.next.title }} &gt;</a>
+      {% endif %}
+    </div>
+    <div class="tc-back">
+      <a href="{{ site.baseurl }}/blog"><span class="tc-pink">&gt;</span> back to blog</a>
+    </div>
+  </footer>
 </article>

@@ -1,19 +1,29 @@
 ---
 layout: default
-permalink: /blog/
+title: blog
 ---
 
-<div class="posts">
-    {% for post in site.posts %}
-      <article class="post">
-  
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-  
-        <div class="entry">
-          {{ post.excerpt }}
-        </div>
-  
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">read more</a>
-      </article>
-    {% endfor %}
+<div class="tc-section-header">/== ALL POSTS ===================================================\</div>
+
+<div class="tc-post-list">
+  {% for post in site.posts %}
+  <article class="tc-post">
+    <div class="tc-post-meta">
+      {% if post.categories %}
+        {% for cat in post.categories %}
+          <span class="tc-cat">[{{ cat }}]</span>
+        {% endfor %}
+      {% endif %}
+      <span class="tc-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    </div>
+    <h2 class="tc-post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="tc-post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</div>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="tc-read-more">read more</a>
+  </article>
+  {% endfor %}
+</div>
+
+<div class="tc-section-footer">\===============================================================/</div>
+<div class="tc-prompt-line">
+  <span class="tc-pink">$</span> <span style="color:#555">{{ site.posts | size }} posts total</span> <span class="tc-cursor"></span>
 </div>

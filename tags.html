@@ -1,25 +1,21 @@
 ---
-layout: page
+layout: default
 title: tags
-permalink: /tags/
 ---
 
-<div id="archives">
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
+<div class="tc-section-header">/== TAGS ========================================================\</div>
 
-    <h3 class="category-head">{{ category_name }}</h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <ul>
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
-      </ul>
-    </article>
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
+  <div class="tc-tag-group" id="{{ tag[0] | slugify }}">
+    <div class="tc-tag-group-name">{{ tag[0] }}</div>
+    {% for post in tag[1] %}
+    <div class="tc-sidebar-item" style="justify-content:flex-start; gap:16px;">
+      <span class="tc-date" style="color:#444; min-width:90px;">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </div>
     {% endfor %}
   </div>
 {% endfor %}
-</div>
+
+<div class="tc-section-footer">\===============================================================/</div>
