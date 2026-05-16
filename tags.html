@@ -5,13 +5,13 @@ title: tags
 
 <div class="tc-section-header">/== TAGS ========================================================\</div>
 
-{% assign sorted_tags = site.tags | sort %}
-{% for tag in sorted_tags %}
-  <div class="tc-tag-group" id="{{ tag[0] | slugify }}">
-    <div class="tc-tag-group-name">{{ tag[0] }}</div>
-    {% for post in tag[1] %}
+{% assign sorted_cats = site.categories | sort %}
+{% for cat in sorted_cats %}
+  <div class="tc-tag-group" id="{{ cat[0] | slugify }}">
+    <div class="tc-tag-group-name">{{ cat[0] }}</div>
+    {% for post in cat[1] %}
     <div class="tc-sidebar-item" style="justify-content:flex-start; gap:16px;">
-      <span class="tc-date" style="color:#444; min-width:90px;">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <span style="color:#444; min-width:90px; font-size:11px;">{{ post.date | date: "%Y-%m-%d" }}</span>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </div>
     {% endfor %}

@@ -79,14 +79,11 @@
     </div>
 
     <div class="tc-sidebar-block">
-      <div class="tc-sidebar-label">/== TAGS =============\</div>
+      <div class="tc-sidebar-label">/== CATEGORIES =======\</div>
       <div class="tc-tag-cloud">
-        {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
-        {% for tag in all_tags %}
-          {% assign tag_stripped = tag | strip %}
-          {% if tag_stripped != '' %}
-            <a href="{{ site.baseurl }}/tags#{{ tag_stripped | slugify }}" class="tc-tag">{{ tag_stripped }}</a>
-          {% endif %}
+        {% assign sorted_cats = site.categories | sort %}
+        {% for cat in sorted_cats %}
+          <a href="{{ site.baseurl }}/tags#{{ cat[0] | slugify }}" class="tc-tag">{{ cat[0] }}</a>
         {% endfor %}
       </div>
       <div class="tc-sidebar-label" style="margin-top:10px;">\=====================/</div>
